@@ -1,4 +1,4 @@
-# smart-gallery
+# Vue smart-gallery
 
 
 > A Vue powered simple gallery search.
