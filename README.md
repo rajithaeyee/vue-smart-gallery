@@ -14,7 +14,7 @@ git clone https://github.com/rajithaeyee/vue-smart-gallery
 cd vue-smart-gallery
 yarn install
 yarn run serve
-open localhost:3000
+open localhost:8080
 yarn run test(for test) 
 
 # To build the app for production, run the following command:
