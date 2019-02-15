@@ -67,14 +67,9 @@ export default{
         });
       },
       filterImages(sk){
-          if(sk.length<=2 && this.imageList.length<1){
-              this.fetch();
-          }else{
              this.$http.get('https://api.unsplash.com/search/photos?client_id=0bdaecbc9af5c906c81b97f47606b789f9749797191d28600bbaa4f1c0332684&page=1&query='+sk).then(res=>{
-                  //console.log(res);
                  this.imageList = res.body.results;
              });
-          }
       }
   }
 }
